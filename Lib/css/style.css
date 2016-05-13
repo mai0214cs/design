@@ -1,0 +1,83 @@
+#Banner{
+	min-height:50px;
+	background:#002142;
+}
+#Banner .logo {
+    max-height: 50px;
+}
+#Banner .logout {
+    line-height: 22px;
+    display: block;
+    float: right;
+    margin-top: 12px;
+    padding: 1px 10px;
+}
+#MainMenu {
+    border-radius: 0px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3E8CE4),to(#174D8C));
+    background: -moz-linear-gradient(top,#3E8CE4 0%,#174D8C);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3E8CE4', endColorstr='#174D8C');
+}
+#MainMenu>div>ul>li>a { color: #fff; }
+ul.nav>li>a {
+    background-repeat: no-repeat !important;
+    padding-left: 30px;
+    background-size: 29px !important;
+    background-position: left center !important;
+}
+ul.nav>li:nth-child(1)>a { background: url('../icon/news.png'); }
+ul.nav>li:nth-child(2)>a { background: url('../icon/shop.png'); }
+ul.nav>li:nth-child(3)>a { background: url('../icon/customer.png'); }
+ul.nav>li:nth-child(4)>a { background: url('../icon/inventory.png'); }
+ul.nav>li:nth-child(5)>a { background: url('../icon/invoice.png'); }
+ul.nav>li:nth-child(6)>a { background: url('../icon/cart.png'); }
+ul.nav>li:nth-child(7)>a { background: url('../icon/report.png'); }
+ul.nav>li:nth-child(8)>a { background: url('../icon/website.png'); }
+ul.nav>li:nth-child(9)>a { background: url('../icon/system.png'); }
+ul.nav>li:nth-child(10)>a {background: url('../icon/account.png'); }
+ul.nav ul>li>a {
+    background-repeat: no-repeat !important;
+    padding-left: 30px;
+    background-size: 20px !important;
+    background-position: 5px center !important;
+}
+ul.nav ul>li:nth-child(1)>a { background: url('../icon/doanh-so.png'); }
+ul.nav ul>li:nth-child(3)>a { background: url('../icon/dat-hang.png'); }
+ul.nav ul>li:nth-child(5)>a { background: url('../icon/loi-nhuan.png'); }
+ul.nav ul>li:nth-child(7)>a { background: url('../icon/kho-hang.png'); }
+ul.nav ul>li:nth-child(9)>a { background: url('../icon/nhap-hang.png'); }
+ul.nav ul>li:nth-child(11)>a { background: url('../icon/cong-no.png'); }
+ul.nav ul>li:nth-child(13)>a { background: url('../icon/thu-chi.png'); }
+#MainContent * {
+    font-size: 10px !important;
+}
+#Footer {
+    background: #DFDFDF;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+}
+.form-control, button {
+    border-radius: 0px !important;
+    padding: 0px 5px !important;
+    font-size: 10px !important;
+    line-height: 15px !important;
+    height: 25px;
+}
+.pagination {
+    padding: 0px;
+    margin: 0px;
+}
+.pagination>li>a, .pagination>li>span {
+    padding: 0px 10px;
+    line-height: 24px;
+}
+.tab-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: 0px !important;
+    /* margin-top: -1px; */
+}
+
+
+
