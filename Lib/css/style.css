@@ -78,6 +78,11 @@ ul.nav ul>li:nth-child(13)>a { background: url('../icon/thu-chi.png'); }
     border-top: 0px !important;
     /* margin-top: -1px; */
 }
-
-
+label.control-label {
+    font-size: 11px;
+    font-weight: 300;
+}
+.fancybox-skin {
+    padding: 0px !important;
+}
 
